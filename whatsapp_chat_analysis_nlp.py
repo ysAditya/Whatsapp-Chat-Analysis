@@ -8,7 +8,7 @@ Original file is located at
 """
 
 from urlextract import URLExtract
-from Cython import WordCloud
+from wordcloud import WordCloud
 import pandas as pd
 from collections import Counter
 
