@@ -1,4 +1,4 @@
-matplotlib==3.7.1
+matplotlib==3.4.3
 seaborn==0.12.2
 urlextract==1.8.0
 wordcloud==1.1.0
