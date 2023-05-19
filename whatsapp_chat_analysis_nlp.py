@@ -146,7 +146,6 @@ if uploaded_file is not None:
 
 """#Helper"""
 
-!pip install urlextract
 
 from urlextract import URLExtract
 from wordcloud import WordCloud
