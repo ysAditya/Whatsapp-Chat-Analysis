@@ -7,6 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/16pYwVRrwHyYpOtKMKOxITE7VkLxqhcJf
 """
 
+pip install wordcloud
 from urlextract import URLExtract
 from wordcloud import WordCloud
 import pandas as pd
