@@ -6,3 +6,4 @@ pandas==1.3.5
 collections==3.7
 re==3.11.3
 streamlit==1.19.0
+Cython==0.29.24
