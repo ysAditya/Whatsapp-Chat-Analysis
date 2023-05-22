@@ -43,7 +43,7 @@ def most_busy_users(df):
 
 
 def create_wordcloud(selected_user, df):
-    f = open('stopwords.txt', 'r')
+    f = open('Stopwords.txt', 'r')
     stopwords = f.read()
 
     if selected_user != "Overall":
