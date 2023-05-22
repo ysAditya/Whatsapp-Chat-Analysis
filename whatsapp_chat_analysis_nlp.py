@@ -242,8 +242,9 @@ if uploaded_file is not None:
         timeline = monthly_timeline(selected_user, df)
 
         fig, ax = plt.subplots()
+        
+        ax.plot(timeline['time'].values, timeline['message'].values, color='Green')
 
-        ax.plot(timeline['time'], timeline['message'], color='Green')
         plt.xticks(rotation='vertical')
 
         st.pyplot(fig)
