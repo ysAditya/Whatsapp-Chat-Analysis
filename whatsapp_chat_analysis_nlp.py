@@ -66,7 +66,7 @@ def create_wordcloud(selected_user, df):
 
 
 def most_common_words(selected_user, df):
-    f = open('stopwords.txt', 'r')
+    f = open('Stopwords.txt', 'r')
     stopwords = f.read()
 
     if selected_user != "Overall":
