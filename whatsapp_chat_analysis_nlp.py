@@ -254,8 +254,9 @@ if uploaded_file is not None:
         daily_timeline = daily_timeline(selected_user, df)
 
         fig, ax = plt.subplots()
+        
+        ax.plot(daily_timeline['only_date'].values, daily_timeline['message'].values, color='Black')
 
-        ax.plot(daily_timeline['only_date'], daily_timeline['message'], color='Black')
         plt.xticks(rotation='vertical')
 
         st.pyplot(fig)
