@@ -191,10 +191,10 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.image("WhatsappWizard.png", width = 400)
+st.image("WhatsappWizard.png", width = 500)
 st.sidebar.title("Let's analyze your whatsapp chat!")
 st.sidebar.text("Buddy! Just download your chat using")
-st.sidebar.text("the Export Chat (without media) option")
+st.sidebar.text("Export Chat (without media) option")
 st.sidebar.text("in your chat and upload it here.")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
