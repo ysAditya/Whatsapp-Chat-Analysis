@@ -192,7 +192,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 st.image("WhatsappWizard.png", width = 400)
-st.sidebar.title("Whatsapp chat analyzer")
+st.sidebar.title("Let's analyze your whatsapp chat!")
+st.sidebar.text("Buddy! Just download your chat using "Export Chat" option in your chat and upload it here.")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
 if uploaded_file is not None:
