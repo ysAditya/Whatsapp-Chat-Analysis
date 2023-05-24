@@ -193,7 +193,7 @@ import seaborn as sns
 
 st.image("WhatsappWizard.png", width = 400)
 st.sidebar.title("Let's analyze your whatsapp chat!")
-st.sidebar.text("Buddy! Just download your chat using "Export Chat" option in your chat and upload it here.")
+st.sidebar.text("Buddy! Just download your chat using the Export Chat (without media) option in your chat and upload it here.")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
 if uploaded_file is not None:
