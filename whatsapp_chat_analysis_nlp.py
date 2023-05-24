@@ -191,6 +191,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+st.image("WhatsappWizard.png", width = 400)
 st.sidebar.title("Whatsapp chat analyzer")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
@@ -209,8 +210,8 @@ if uploaded_file is not None:
     user_list.remove('group notification')
     user_list.sort()
     user_list.insert(0, "Overall")
-    
-    st.image("WhatsappWizard.png", width = 400)
+        
+
 
     selected_user = st.sidebar.selectbox("Show analysis wrt", user_list)
 
