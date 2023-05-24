@@ -209,6 +209,8 @@ if uploaded_file is not None:
     user_list.remove('group notification')
     user_list.sort()
     user_list.insert(0, "Overall")
+    
+    st.image("WhatsappWizard.png", width = 400)
 
     selected_user = st.sidebar.selectbox("Show analysis wrt", user_list)
 
